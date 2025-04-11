@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { BlinkingCursorComponent } from "./blinking-cursor/blinking-cursor.component";
 
 @Component({
   selector: 'app-root',
-  imports: [LandingPageComponent],
+  imports: [LandingPageComponent, BlinkingCursorComponent],
   templateUrl: './app.component.html',
   styleUrl: '../styles.css'
 })
